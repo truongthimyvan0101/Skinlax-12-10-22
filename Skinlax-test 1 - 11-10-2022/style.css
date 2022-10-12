@@ -209,7 +209,7 @@
         display: block;
       }
       #head .social .list-item .search form{
-        border: 1px solid var(--text-color);
+        border: 1px solid rgb(118, 114, 114);
         width: 100%;
       }
       #head .social .list-item .search{
@@ -217,10 +217,13 @@
         margin-top: 2.5rem;
       }
       #head .social .list-item .search form input{
-        border: none;
         padding: 0.5rem;
         width: 80%;
         font-size: 1.2rem;
+        border: none;
+      }
+      #head .social .list-item .search form input:focus-visible{
+        outline: none;
       }
       #head .social .list-item .search form button {
         border: none;
